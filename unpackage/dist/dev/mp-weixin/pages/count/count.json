@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tui-tabs": "/components/thorui/tui-tabs/tui-tabs"
+  }
+}

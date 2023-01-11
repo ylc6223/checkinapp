@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/count/count",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	  "tabBar": {
+	    "color": "#34495e",
+	    "selectedColor":"#3498db",
+	    "backgroundColor":"#FFF",
+		"height": "70px",
+	    "fontSize": "16px",
+	    "list":[
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "签到",
+			"iconPath": "static/icons/checkin.png",
+			"selectedIconPath": "static/icons/checkin-active.png"
+	      },
+	      {
+	        "pagePath": "pages/count/count",
+	        "text": "统计",
+			"iconPath": "static/icons/count.png",
+			"selectedIconPath": "static/icons/count-active.png"
+	      },
+	      {
+	        "pagePath": "pages/profile/profile",
+	        "text": "个人",
+			"iconPath": "static/icons/profile.png",
+			"selectedIconPath": "static/icons/profile-active.png"
+	      }
+	    ]
+	  },
+	  "easycom": {
+	  		"autoscan": true,
+	  		"custom": {
+	  			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"
+	  		}
+	  	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
