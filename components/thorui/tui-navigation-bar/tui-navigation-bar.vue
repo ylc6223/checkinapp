@@ -8,7 +8,7 @@
 			v-if="title && !isCustom">
 			{{ title }}
 		</view>
-		<slot></slot>
+		<slot />
 	</view>
 </template>
 
@@ -92,7 +92,7 @@
 			//z-index设置
 			zIndex: {
 				type: [Number, String],
-				default: 996
+				default: 9998
 			}
 		},
 		watch: {

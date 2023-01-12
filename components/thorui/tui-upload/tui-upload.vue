@@ -428,7 +428,7 @@
 		border-radius: 50%;
 		color: white;
 		font-size: 34rpx;
-		z-index: 200;
+		z-index: 900;
 	}
 
 	.tui-img-del::before {

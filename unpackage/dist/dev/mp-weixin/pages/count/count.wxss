@@ -25,11 +25,30 @@
 /* 透明度 */
 /* 文章场景相关 */
 .card.data-v-378efeb4 {
-  height: calc(100vh - 70px);
-  min-height: 400px;
+  height: calc(100vh - 140rpx);
+  min-height: 800rpx;
 }
 .avatar.data-v-378efeb4 {
-  width: 50px;
-  height: 50px;
+  width: 100rpx;
+  height: 100rpx;
+}
+.names.data-v-378efeb4 {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.date-selector.data-v-378efeb4 {
+  max-width: 280rpx;
+  max-height: 70rpx;
+  border-radius: 8px;
+}
+.date-selector-item.data-v-378efeb4 {
+  margin: 10rpx;
+  border-radius: 4px;
+}
+.date-selector-item text.data-v-378efeb4 {
+  padding: 20rpx;
+}
+.date-selector-item.active.data-v-378efeb4 {
+  background-color: #FFF;
 }
 

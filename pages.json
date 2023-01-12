@@ -3,7 +3,10 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "签到小程序",
+				"usingComponents": {
+					
+				}
 			}
 		}
 	    ,{
@@ -29,8 +32,6 @@
 	    "color": "#34495e",
 	    "selectedColor":"#3498db",
 	    "backgroundColor":"#FFF",
-		"height": "70px",
-	    "fontSize": "16px",
 	    "list":[
 	      {
 	        "pagePath": "pages/index/index",
@@ -62,6 +63,8 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+		}
 	}
 }

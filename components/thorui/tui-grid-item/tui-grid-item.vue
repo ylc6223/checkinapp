@@ -58,11 +58,6 @@
 		background: #fff;
 		float: left;
 	}
-	/* #ifdef MP-BAIDU */
-	.tui-grid:active{
-		background-color: #f7f7f9;
-	}
-	/* #endif */
 
 	.tui-grid-2 {
 		width: 50%;

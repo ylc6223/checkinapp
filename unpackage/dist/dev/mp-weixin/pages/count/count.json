@@ -2,6 +2,6 @@
   "navigationBarTitleText": "",
   "enablePullDownRefresh": false,
   "usingComponents": {
-    "tui-tabs": "/components/thorui/tui-tabs/tui-tabs"
+    "zsy-calendar": "/components/zsy-calendar/zsy-calendar"
   }
 }

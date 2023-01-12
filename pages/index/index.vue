@@ -35,6 +35,7 @@
 			<view class="tips mx-auto">
 				<text class="icon">&#xe72d;</text>
 				<text>已进入考勤范围:深蓝工业园</text>
+				<text class="mt-20 block" style="font-size: 12px;color:red">准时打卡不迟到，即可获得5元现金红包</text>
 			</view>
 		</view>
 	</view>
