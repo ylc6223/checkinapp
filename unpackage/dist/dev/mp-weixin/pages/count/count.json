@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "统计",
   "enablePullDownRefresh": false,
   "usingComponents": {
     "zsy-calendar": "/components/zsy-calendar/zsy-calendar"

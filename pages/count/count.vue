@@ -20,11 +20,12 @@
 			<!-- 按日期展示 -->
 			<view class="mt-20">
 				<view class="timesbox">
-					<text>2023</text>
+					<text>{{curYear}}</text>
 					<text>&nbsp;|&nbsp;</text>
-					<text>01.12</text>
+					<text>{{curMonth}}.</text>
+					<text>{{curDate}}</text>
 				</view>
-				<zsyCalendar :sundayIndex="6" @change="change"/>
+				<zsyCalendar mode="close" :sundayIndex="6" @change="change"/>
 			</view>
 			<!-- 按周展示 -->
 			<view v-show="false"></view>
@@ -55,7 +56,9 @@ import zsyCalendar from '@/components/zsy-calendar/zsy-calendar'
 						label:"月"
 					}
 				],
-
+				curYear:"",
+				curMonth:"",
+				curDate:"",
 			};
 		},
 		methods:{
@@ -66,15 +69,12 @@ import zsyCalendar from '@/components/zsy-calendar/zsy-calendar'
 			},
 			// 日历选中日期改变事件回调
 			change(e) {
-				console.log(e)
+				let {year,month,date} = e
+				this.curDate=date
+				this.curMonth=month
+				this.curYear=year
+				// console.log(e)
 			}
-			// formatDate(date) {
-			// 	return `${date.getMonth() + 1}/${date.getDate()}`;
-			// },
-			// onConfirm(date) {
-			// 	this.show = false;
-			// 	this.date = this.formatDate(date);
-			// },
 		},
 		mounted(){
 			

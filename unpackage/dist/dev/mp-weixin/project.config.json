@@ -1,16 +1,19 @@
 {
-  "description": "项目配置文件。",
+  "appid": "wx8d2876d0b14e73c8",
+  "compileType": "miniprogram",
+  "libVersion": "2.29.2",
   "packOptions": {
     "ignore": [],
     "include": []
   },
   "setting": {
-    "urlCheck": false,
-    "es6": false,
-    "postcss": false,
-    "minified": false,
-    "newFeature": true,
-    "bigPackageSizeSupport": true,
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "enhance": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmRelationList": [],
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -18,28 +21,7 @@
     },
     "ignoreUploadUnusedFiles": false
   },
-  "compileType": "miniprogram",
-  "libVersion": "2.29.1",
-  "appid": "wx8d2876d0b14e73c8",
-  "projectname": "签到小程序",
-  "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "current": -1,
-      "list": []
-    }
-  },
+  "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

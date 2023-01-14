@@ -1,0 +1,15 @@
+{
+    "id": "zsy-calendar",
+    "displayName": "zsy-calendar 仿钉钉打卡统计日历 支持周与月的滑动切换",
+    "version": "1.0.6",
+    "description": "仿钉钉打卡统计日历、支持周与月的滑动切换",
+    "keywords": [
+        "兼容多端、源码注释清晰方便二次开发"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

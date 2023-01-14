@@ -2,13 +2,18 @@
   "pages": [
     "pages/index/index",
     "pages/count/count",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/checkin_setting/checkin_setting",
+    "pages/indexlist/indexlist",
+    "pages/profile/checkin-method/checkin-method",
+    "pages/profile/location/location",
+    "pages/profile/map-location/map-location"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "签到小程序",
+    "navigationBarBackgroundColor": "#FFF",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
@@ -30,7 +35,7 @@
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "个人",
+        "text": "设置",
         "iconPath": "static/icons/profile.png",
         "selectedIconPath": "static/icons/profile-active.png"
       }
