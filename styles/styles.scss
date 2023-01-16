@@ -22,6 +22,9 @@
 .justify-start{
 	justify-content: flex-start;
 }
+.justify-end{
+	justify-content: flex-end;
+}
 .justify-center{
 	justify-content: center;
 }
@@ -36,6 +39,9 @@
 }
 .block{
 	display: block;
+}
+.inline-block{
+	display: inline-block;
 }
 .bg-white{
 	background-color: #FFF;

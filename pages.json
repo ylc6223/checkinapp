@@ -1,115 +1,129 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"usingComponents": {
+
+				}
+			}
+		},
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"usingComponents": {
+		
+				}
+			}
+		},
+		{
+			"path": "pages/forgetPwd/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"usingComponents": {
+		
+				}
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "签到小程序",
 				"usingComponents": {
-					
+
 				}
 			}
+		}, {
+			"path": "pages/count/count",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/checkin_setting/checkin_setting",
+			"style": {
+				"navigationBarTitleText": "考勤设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/indexlist/indexlist",
+			"style": {
+				"navigationBarTitleText": "人员列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/profile/location/location",
+			"style": {
+				"navigationBarTitleText": "地点打卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/checkin_setting/checkin-edit/checkin-edit",
+			"style": {
+				"navigationBarTitleText": "考勤组设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人设置",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	    ,{
-            "path" : "pages/count/count",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "统计",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/profile/profile",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "设置",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/checkin_setting/checkin_setting",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "打卡设置",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/indexlist/indexlist",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/profile/checkin-method/checkin-method",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "打卡方式",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/profile/location/location",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "地点打卡",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/profile/map-location/map-location",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
-	  "tabBar": {
-	    "color": "#34495e",
-	    "selectedColor":"#3498db",
-	    "backgroundColor":"#FFF",
-	    "list":[
-	      {
-	        "pagePath": "pages/index/index",
-	        "text": "签到",
-			"iconPath": "static/icons/checkin.png",
-			"selectedIconPath": "static/icons/checkin-active.png"
-	      },
-	      {
-	        "pagePath": "pages/count/count",
-	        "text": "统计",
-			"iconPath": "static/icons/count.png",
-			"selectedIconPath": "static/icons/count-active.png"
-	      },
-	      {
-	        "pagePath": "pages/profile/profile",
-	        "text": "设置",
-			"iconPath": "static/icons/profile.png",
-			"selectedIconPath": "static/icons/profile-active.png"
-	      }
-	    ]
-	  },
-	  "easycom": {
-	  		"autoscan": true,
-	  		"custom": {
-	  			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"
-	  		}
-	  	},
+	],
+	"tabBar": {
+		"color": "#34495e",
+		"selectedColor": "#3498db",
+		"backgroundColor": "#FFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "签到",
+				"iconPath": "static/icons/checkin.png",
+				"selectedIconPath": "static/icons/checkin-active.png"
+			},
+			{
+				"pagePath": "pages/count/count",
+				"text": "统计",
+				"iconPath": "static/icons/count.png",
+				"selectedIconPath": "static/icons/count-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "设置",
+				"iconPath": "static/icons/profile.png",
+				"selectedIconPath": "static/icons/profile-active.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"
+		}
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "签到小程序",
 		"navigationBarBackgroundColor": "#FFF",
 		"backgroundColor": "#F8F8F8",
-		"usingComponents": {
-		}
+		"usingComponents": {}
 	}
+	// #ifdef MP-WEIXIN
+
+	// #endif
 }
