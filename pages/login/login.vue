@@ -27,15 +27,14 @@
 				popupShow: false,
 				openid: "",
 				loginCode: "",
-				code: "", //换取手机号所必须
+				code: "", //换取手机号所必须的登录凭证
 			};
 		},
+		//页面加载时候进行登录拿到openid
 		onLoad(options) {
 			let that = this;
 			wx.login({
-
 				success(res) {
-					console.log(res.code);
 					if (res.code) {
 						that.loginCode = res.code
 						wx.request({
@@ -54,7 +53,7 @@
 			})
 		},
 		methods: {
-			//登录时候获取用户授权，拿到手机号和openid
+			//点击登录时候使用手机号进行登录，带上openid
 			login(e) {
 				let that = this;
 				// console.log(e.detail.code)
@@ -68,7 +67,7 @@
 					},
 					success(res1) {
 						console.log(res1);
-						wx.redirectTo({
+						wx.switchTab({
 							url: "/pages/index/index"
 						})
 					}
