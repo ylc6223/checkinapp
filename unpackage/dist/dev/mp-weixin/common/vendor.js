@@ -57,6 +57,490 @@ module.exports = _nonIterableRest, module.exports.__esModule = true, module.expo
 
 /***/ }),
 
+/***/ 102:
+/*!****************************************************!*\
+  !*** C:/sourcecode/checkinapp/utils/index.list.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  list: [{
+    "letter": "A",
+    "data": [{
+      "name": "阿拉斯加",
+      "mobile": "13588889999",
+      "keyword": "阿拉斯加ABA13588889999"
+    }, {
+      "name": "阿克苏",
+      "mobile": "0551-4386721",
+      "keyword": "阿克苏AKESU0551-4386721"
+    }, {
+      "name": "阿拉善",
+      "mobile": "4008009100",
+      "keyword": "阿拉善ALASHAN4008009100"
+    }, {
+      "name": "阿勒泰",
+      "mobile": "13588889999",
+      "keyword": "阿勒泰ALETAI13588889999"
+    }, {
+      "name": "阿里",
+      "mobile": "13588889999",
+      "keyword": "阿里ALI13588889999"
+    }, {
+      "name": "安阳",
+      "mobile": "13588889999",
+      "keyword": "13588889999安阳ANYANG"
+    }]
+  }, {
+    "letter": "B",
+    "data": [{
+      "name": "白城",
+      "mobile": "该主子没有留电话~",
+      "keyword": "白城BAICHENG"
+    }, {
+      "name": "白山",
+      "mobile": "13588889999",
+      "keyword": "白山BAISHAN13588889999"
+    }, {
+      "name": "白银",
+      "mobile": "13588889999",
+      "keyword": "白银BAIYIN13588889999"
+    }, {
+      "name": "保定",
+      "mobile": "13588889999",
+      "keyword": "保定BAODING13588889999"
+    }]
+  }, {
+    "letter": "C",
+    "data": [{
+      "name": "沧州",
+      "mobile": "13588889999",
+      "keyword": "沧州CANGZHOU13588889999"
+    }, {
+      "name": "长春",
+      "mobile": "13588889999",
+      "keyword": "长春CHANGCHUN13588889999"
+    }]
+  }, {
+    "letter": "D",
+    "data": [{
+      "name": "大理",
+      "mobile": "13588889999",
+      "keyword": "大理DALI13588889999"
+    }, {
+      "name": "大连",
+      "mobile": "13588889999",
+      "keyword": "大连DALIAN13588889999"
+    }]
+  }, {
+    "letter": "E",
+    "data": [{
+      "name": "鄂尔多斯",
+      "mobile": "13588889999",
+      "keyword": "鄂尔多斯EERDUOSI13588889999"
+    }, {
+      "name": "恩施",
+      "mobile": "13588889999",
+      "keyword": "恩施ENSHI13588889999"
+    }, {
+      "name": "鄂州",
+      "mobile": "13588889999",
+      "keyword": "鄂州EZHOU13588889999"
+    }]
+  }, {
+    "letter": "F",
+    "data": [{
+      "name": "防城港",
+      "mobile": "该主子没有留电话~",
+      "keyword": "防城港FANGCHENGGANG"
+    }, {
+      "name": "抚顺",
+      "mobile": "13588889999",
+      "keyword": "抚顺FUSHUN13588889999"
+    }, {
+      "name": "阜新",
+      "mobile": "13588889999",
+      "keyword": "阜新FUXIN13588889999"
+    }, {
+      "name": "阜阳",
+      "mobile": "13588889999",
+      "keyword": "阜阳FUYANG13588889999"
+    }, {
+      "name": "抚州",
+      "mobile": "13588889999",
+      "keyword": "抚州FUZHOU13588889999"
+    }, {
+      "name": "福州",
+      "mobile": "13588889999",
+      "keyword": "福州FUZHOU13588889999"
+    }]
+  }, {
+    "letter": "G",
+    "data": [{
+      "name": "甘南",
+      "mobile": "13588889999",
+      "keyword": "甘南GANNAN13588889999"
+    }, {
+      "name": "赣州",
+      "mobile": "13588889999",
+      "keyword": "赣州GANZHOU13588889999"
+    }, {
+      "name": "甘孜",
+      "mobile": "13588889999",
+      "keyword": "甘孜GANZI13588889999"
+    }]
+  }, {
+    "letter": "H",
+    "data": [{
+      "name": "哈尔滨",
+      "mobile": "13588889999",
+      "keyword": "哈尔滨HAERBIN13588889999"
+    }, {
+      "name": "海北",
+      "mobile": "13588889999",
+      "keyword": "海北HAIBEI13588889999"
+    }, {
+      "name": "海东",
+      "mobile": "13588889999",
+      "keyword": "海东HAIDONG13588889999"
+    }, {
+      "name": "海口",
+      "mobile": "13588889999",
+      "keyword": "海口HAIKOU13588889999"
+    }]
+  }, {
+    "letter": "I",
+    "data": [{
+      "name": "ice",
+      "mobile": "13588889999",
+      "keyword": "佳木斯JIAMUSI13588889999"
+    }]
+  }, {
+    "letter": "J",
+    "data": [{
+      "name": "佳木斯",
+      "mobile": "13588889999",
+      "keyword": "佳木斯JIAMUSI13588889999"
+    }, {
+      "name": "吉安",
+      "mobile": "13588889999",
+      "keyword": "吉安JIAN13588889999"
+    }, {
+      "name": "江门",
+      "mobile": "13588889999",
+      "keyword": "江门JIANGMEN13588889999"
+    }]
+  }, {
+    "letter": "K",
+    "data": [{
+      "name": "开封",
+      "mobile": "13588889999",
+      "keyword": "开封KAIFENG13588889999"
+    }, {
+      "name": "喀什",
+      "mobile": "13588889999",
+      "keyword": "喀什KASHI13588889999"
+    }, {
+      "name": "克拉玛依",
+      "mobile": "13588889999",
+      "keyword": "克拉玛依KELAMAYI13588889999"
+    }]
+  }, {
+    "letter": "L",
+    "data": [{
+      "name": "来宾",
+      "mobile": "13588889999",
+      "keyword": "来宾LAIBIN13588889999"
+    }, {
+      "name": "兰州",
+      "mobile": "13588889999",
+      "keyword": "兰州LANZHOU13588889999"
+    }, {
+      "name": "拉萨",
+      "mobile": "13588889999",
+      "keyword": "拉萨LASA13588889999"
+    }, {
+      "name": "乐山",
+      "mobile": "13588889999",
+      "keyword": "乐山LESHAN13588889999"
+    }, {
+      "name": "凉山",
+      "mobile": "13588889999",
+      "keyword": "凉山LIANGSHAN13588889999"
+    }, {
+      "name": "连云港",
+      "mobile": "13588889999",
+      "keyword": "连云港LIANYUNGANG13588889999"
+    }, {
+      "name": "聊城",
+      "mobile": "18322223333",
+      "keyword": "聊城LIAOCHENG18322223333"
+    }, {
+      "name": "辽阳",
+      "mobile": "18322223333",
+      "keyword": "辽阳LIAOYANG18322223333"
+    }, {
+      "name": "辽源",
+      "mobile": "18322223333",
+      "keyword": "辽源LIAOYUAN18322223333"
+    }, {
+      "name": "丽江",
+      "mobile": "18322223333",
+      "keyword": "丽江LIJIANG18322223333"
+    }, {
+      "name": "临沧",
+      "mobile": "18322223333",
+      "keyword": "临沧LINCANG18322223333"
+    }, {
+      "name": "临汾",
+      "mobile": "18322223333",
+      "keyword": "临汾LINFEN18322223333"
+    }, {
+      "name": "临夏",
+      "mobile": "18322223333",
+      "keyword": "临夏LINXIA18322223333"
+    }, {
+      "name": "临沂",
+      "mobile": "18322223333",
+      "keyword": "临沂LINYI18322223333"
+    }, {
+      "name": "林芝",
+      "mobile": "18322223333",
+      "keyword": "林芝LINZHI18322223333"
+    }, {
+      "name": "丽水",
+      "mobile": "18322223333",
+      "keyword": "丽水LISHUI18322223333"
+    }]
+  }, {
+    "letter": "M",
+    "data": [{
+      "name": "眉山",
+      "mobile": "15544448888",
+      "keyword": "眉山MEISHAN15544448888"
+    }, {
+      "name": "梅州",
+      "mobile": "15544448888",
+      "keyword": "梅州MEIZHOU15544448888"
+    }, {
+      "name": "绵阳",
+      "mobile": "15544448888",
+      "keyword": "绵阳MIANYANG15544448888"
+    }, {
+      "name": "牡丹江",
+      "mobile": "15544448888",
+      "keyword": "牡丹江MUDANJIANG15544448888"
+    }]
+  }, {
+    "letter": "N",
+    "data": [{
+      "name": "南昌",
+      "mobile": "15544448888",
+      "keyword": "南昌NANCHANG15544448888"
+    }, {
+      "name": "南充",
+      "mobile": "15544448888",
+      "keyword": "南充NANCHONG15544448888"
+    }, {
+      "name": "南京",
+      "mobile": "15544448888",
+      "keyword": "南京NANJING15544448888"
+    }, {
+      "name": "南宁",
+      "mobile": "15544448888",
+      "keyword": "南宁NANNING15544448888"
+    }, {
+      "name": "南平",
+      "mobile": "15544448888",
+      "keyword": "南平NANPING15544448888"
+    }]
+  }, {
+    "letter": "O",
+    "data": [{
+      "name": "欧阳",
+      "mobile": "15544448888",
+      "keyword": "欧阳ouyang15544448888"
+    }]
+  }, {
+    "letter": "P",
+    "data": [{
+      "name": "盘锦",
+      "mobile": "15544448888",
+      "keyword": "盘锦PANJIN15544448888"
+    }, {
+      "name": "攀枝花",
+      "mobile": "15544448888",
+      "keyword": "攀枝花PANZHIHUA15544448888"
+    }, {
+      "name": "平顶山",
+      "mobile": "15544448888",
+      "keyword": "平顶山PINGDINGSHAN15544448888"
+    }, {
+      "name": "平凉",
+      "mobile": "15544448888",
+      "keyword": "平凉PINGLIANG15544448888"
+    }, {
+      "name": "萍乡",
+      "mobile": "15544448888",
+      "keyword": "萍乡PINGXIANG15544448888"
+    }, {
+      "name": "普洱",
+      "mobile": "15544448888",
+      "keyword": "普洱PUER15544448888"
+    }, {
+      "name": "莆田",
+      "mobile": "15544448888",
+      "keyword": "莆田PUTIAN15544448888"
+    }, {
+      "name": "濮阳",
+      "mobile": "15544448888",
+      "keyword": "濮阳PUYANG15544448888"
+    }]
+  }, {
+    "letter": "Q",
+    "data": [{
+      "name": "黔东南",
+      "mobile": "15544448888",
+      "keyword": "黔东南QIANDONGNAN15544448888"
+    }, {
+      "name": "黔南",
+      "mobile": "15544448888",
+      "keyword": "黔南QIANNAN15544448888"
+    }, {
+      "name": "黔西南",
+      "mobile": "15544448888",
+      "keyword": "黔西南QIANXINAN15544448888"
+    }]
+  }, {
+    "letter": "R",
+    "data": [{
+      "name": "日喀则",
+      "mobile": "15544448888",
+      "keyword": "日喀则RIKAZE15544448888"
+    }, {
+      "name": "日照",
+      "mobile": "15544448888",
+      "keyword": "日照RIZHAO15544448888"
+    }]
+  }, {
+    "letter": "S",
+    "data": [{
+      "name": "三门峡",
+      "mobile": "15544448888",
+      "keyword": "三门峡SANMENXIA15544448888"
+    }, {
+      "name": "三明",
+      "mobile": "15544448888",
+      "keyword": "三明SANMING15544448888"
+    }, {
+      "name": "三沙",
+      "mobile": "15544448888",
+      "keyword": "三沙SANSHA15544448888"
+    }]
+  }, {
+    "letter": "T",
+    "data": [{
+      "name": "塔城",
+      "mobile": "15544448888",
+      "keyword": "塔城TACHENG15544448888"
+    }, {
+      "name": "漯河",
+      "mobile": "15544448888",
+      "keyword": "漯河TAHE15544448888"
+    }, {
+      "name": "泰安",
+      "mobile": "15544448888",
+      "keyword": "泰安TAIAN15544448888"
+    }]
+  }, {
+    "letter": "W",
+    "data": [{
+      "name": "潍坊",
+      "mobile": "15544448888",
+      "keyword": "潍坊WEIFANG15544448888"
+    }, {
+      "name": "威海",
+      "mobile": "15544448888",
+      "keyword": "威海WEIHAI15544448888"
+    }, {
+      "name": "渭南",
+      "mobile": "15544448888",
+      "keyword": "渭南WEINAN15544448888"
+    }, {
+      "name": "文山",
+      "mobile": "15544448888",
+      "keyword": "文山WENSHAN15544448888"
+    }]
+  }, {
+    "letter": "X",
+    "data": [{
+      "name": "厦门",
+      "mobile": "15544448888",
+      "keyword": "厦门XIAMEN15544448888"
+    }, {
+      "name": "西安",
+      "mobile": "15544448888",
+      "keyword": "西安XIAN15544448888"
+    }, {
+      "name": "湘潭",
+      "mobile": "15544448888",
+      "keyword": "湘潭XIANGTAN15544448888"
+    }]
+  }, {
+    "letter": "Y",
+    "data": [{
+      "name": "雅安",
+      "mobile": "15544448888",
+      "keyword": "雅安YAAN15544448888"
+    }, {
+      "name": "延安",
+      "mobile": "15544448888",
+      "keyword": "延安YANAN15544448888"
+    }, {
+      "name": "延边",
+      "mobile": "15544448888",
+      "keyword": "延边YANBIAN15544448888"
+    }, {
+      "name": "盐城",
+      "mobile": "15544448888",
+      "keyword": "盐城YANCHENG15544448888"
+    }]
+  }, {
+    "letter": "Z",
+    "data": [{
+      "name": "枣庄",
+      "mobile": "15544448888",
+      "keyword": "枣庄ZAOZHUANG15544448888"
+    }, {
+      "name": "张家界",
+      "mobile": "15544448888",
+      "keyword": "张家界ZHANGJIAJIE15544448888"
+    }, {
+      "name": "张家口",
+      "mobile": "15544448888",
+      "keyword": "张家口ZHANGJIAKOU15544448888"
+    }]
+  }, {
+    "letter": "well",
+    "data": [{
+      "name": "☆echo.",
+      "mobile": "16666666666",
+      "keyword": "echo16666666666"
+    }]
+  }]
+};
+exports.default = _default;
+
+/***/ }),
+
 /***/ 11:
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
@@ -83,7 +567,44 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 
 /***/ }),
 
-/***/ 119:
+/***/ 12:
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toPropertyKey.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
+var toPrimitive = __webpack_require__(/*! ./toPrimitive.js */ 14);
+function _toPropertyKey(arg) {
+  var key = toPrimitive(arg, "string");
+  return _typeof(key) === "symbol" ? key : String(key);
+}
+module.exports = _toPropertyKey, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 13:
+/*!*******************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+
+  return (module.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(obj);
+}
+module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 135:
 /*!***********************************************************************!*\
   !*** C:/sourcecode/checkinapp/components/thorui/tui-icon/tui-icon.js ***!
   \***********************************************************************/
@@ -291,44 +812,57 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ 12:
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toPropertyKey.js ***!
-  \**************************************************************/
+/***/ 14:
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
-var toPrimitive = __webpack_require__(/*! ./toPrimitive.js */ 14);
-function _toPropertyKey(arg) {
-  var key = toPrimitive(arg, "string");
-  return _typeof(key) === "symbol" ? key : String(key);
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null) return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== undefined) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object") return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
 }
-module.exports = _toPropertyKey, module.exports.__esModule = true, module.exports["default"] = module.exports;
+module.exports = _toPrimitive, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
-/***/ 13:
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
+/***/ 15:
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/construct.js ***!
+  \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function _typeof(obj) {
-  "@babel/helpers - typeof";
-
-  return (module.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(obj);
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
+var isNativeReflectConstruct = __webpack_require__(/*! ./isNativeReflectConstruct.js */ 17);
+function _construct(Parent, args, Class) {
+  if (isNativeReflectConstruct()) {
+    module.exports = _construct = Reflect.construct.bind(), module.exports.__esModule = true, module.exports["default"] = module.exports;
+  } else {
+    module.exports = _construct = function _construct(Parent, args, Class) {
+      var a = [null];
+      a.push.apply(a, args);
+      var Constructor = Function.bind.apply(Parent, a);
+      var instance = new Constructor();
+      if (Class) setPrototypeOf(instance, Class.prototype);
+      return instance;
+    }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  }
+  return _construct.apply(null, arguments);
 }
-module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports;
+module.exports = _construct, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
-/***/ 134:
+/***/ 150:
 /*!********************************************************************!*\
   !*** C:/sourcecode/checkinapp/components/zsy-calendar/js/utils.js ***!
   \********************************************************************/
@@ -413,56 +947,6 @@ function deepClone(source) {
   });
   return targetObj;
 }
-
-/***/ }),
-
-/***/ 14:
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toPrimitive.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ./typeof.js */ 13)["default"];
-function _toPrimitive(input, hint) {
-  if (_typeof(input) !== "object" || input === null) return input;
-  var prim = input[Symbol.toPrimitive];
-  if (prim !== undefined) {
-    var res = prim.call(input, hint || "default");
-    if (_typeof(res) !== "object") return res;
-    throw new TypeError("@@toPrimitive must return a primitive value.");
-  }
-  return (hint === "string" ? String : Number)(input);
-}
-module.exports = _toPrimitive, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 15:
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/construct.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ 16);
-var isNativeReflectConstruct = __webpack_require__(/*! ./isNativeReflectConstruct.js */ 17);
-function _construct(Parent, args, Class) {
-  if (isNativeReflectConstruct()) {
-    module.exports = _construct = Reflect.construct.bind(), module.exports.__esModule = true, module.exports["default"] = module.exports;
-  } else {
-    module.exports = _construct = function _construct(Parent, args, Class) {
-      var a = [null];
-      a.push.apply(a, args);
-      var Constructor = Function.bind.apply(Parent, a);
-      var instance = new Constructor();
-      if (Class) setPrototypeOf(instance, Class.prototype);
-      return instance;
-    }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  }
-  return _construct.apply(null, arguments);
-}
-module.exports = _construct, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -9754,6 +10238,379 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ 35:
+/*!*************************************************!*\
+  !*** C:/sourcecode/checkinapp/utils/request.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _tuiRequest = _interopRequireDefault(__webpack_require__(/*! ../components/common/tui-request */ 36));
+//初始化请求配置项
+_tuiRequest.default.create({
+  host: 'https://www.thorui.cn',
+  header: {
+    'content-type': 'application/x-www-form-urlencoded'
+  }
+});
+//请求拦截
+_tuiRequest.default.interceptors.request.use(function (config) {
+  var token = uni.getStorageSync('thorui_token');
+  if (config.header) {
+    config.header['Authorization'] = token;
+  } else {
+    config.header = {
+      'Authorization': token
+    };
+  }
+  return config;
+});
+//响应拦截
+_tuiRequest.default.interceptors.response.use(function (response) {
+  //TODO
+  return response;
+});
+var _default = _tuiRequest.default;
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+
+/***/ 36:
+/*!***********************************************************************!*\
+  !*** C:/sourcecode/checkinapp/components/common/tui-request/index.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var _tuiBase = _interopRequireDefault(__webpack_require__(/*! ./tui-base.js */ 37));
+var _tuiTaskKeyStore = _interopRequireDefault(__webpack_require__(/*! ./tui-taskKeyStore.js */ 38));
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var store = (0, _tuiTaskKeyStore.default)();
+var THORUI_INNER = /*#__PURE__*/function () {
+  function THORUI_INNER() {
+    var initConfig = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    (0, _classCallCheck2.default)(this, THORUI_INNER);
+    this.initConfig = initConfig;
+    this.request = [];
+    this.response = [];
+    this.dispatchRequest = this.dispatchRequest.bind(this);
+    this.loading = false;
+  }
+  (0, _createClass2.default)(THORUI_INNER, [{
+    key: "dispatchRequest",
+    value: function dispatchRequest() {
+      var _this = this;
+      var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      var params = _tuiBase.default.mergeConfig(this.initConfig, config);
+      if (params.requestTaskKey && store.requestTaskStorage(params.requestTaskKey)) {
+        return new Promise(function (resolve, reject) {
+          reject({
+            statusCode: -9999,
+            errMsg: 'request:cancelled'
+          });
+        });
+      }
+      var options = _tuiBase.default.getOptions(params);
+      var promise = Promise.resolve(options);
+      promise = promise.then(function (config) {
+        if (params.showLoading && !_this.loading) {
+          _this.loading = true;
+          _tuiBase.default.showLoading();
+        }
+        return new Promise(function (resolve, reject) {
+          var requestTask = uni.request(_objectSpread(_objectSpread({}, options), {}, {
+            success: function success(res) {
+              if (params.showLoading && _this.loading) {
+                _this.loading = false;
+                uni.hideLoading();
+              }
+              resolve(params.concise ? res.data : res);
+            },
+            fail: function fail(err) {
+              if (params.showLoading && _this.loading) {
+                _this.loading = false;
+                uni.hideLoading();
+              }
+              if (params.errorMsg) {
+                _tuiBase.default.toast(params.errorMsg);
+              }
+              reject(err);
+            },
+            complete: function complete() {
+              store.removeRequestTaskKey(params.requestTaskKey);
+            }
+          }));
+          if (params.timeout && typeof params.timeout === 'number' && params.timeout > 3000) {
+            setTimeout(function () {
+              try {
+                store.removeRequestTaskKey(params.requestTaskKey);
+                requestTask.abort();
+              } catch (e) {}
+              resolve({
+                statusCode: -9999,
+                errMsg: 'request:cancelled'
+              });
+            }, params.timeout);
+          }
+        });
+      });
+      return promise;
+    }
+  }]);
+  return THORUI_INNER;
+}();
+var inner = new THORUI_INNER(_tuiBase.default.config());
+var http = {
+  interceptors: {
+    request: {
+      use: function use(fulfilled, rejected) {
+        inner.request.push({
+          fulfilled: fulfilled,
+          rejected: rejected
+        });
+      },
+      eject: function eject(name) {
+        if (inner.request[name]) {
+          inner.request[name] = null;
+        }
+      }
+    },
+    response: {
+      use: function use(fulfilled, rejected) {
+        inner.response.push({
+          fulfilled: fulfilled,
+          rejected: rejected
+        });
+      },
+      eject: function eject(name) {
+        if (inner.response[name]) {
+          inner.response[name] = null;
+        }
+      }
+    }
+  },
+  create: function create(config) {
+    inner.initConfig = _tuiBase.default.mergeConfig(_tuiBase.default.config(), config, true);
+  },
+  get: function get(url) {
+    var config = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    config.method = 'GET';
+    config.url = url || config.url || '';
+    return http.request(config);
+  },
+  post: function post(url) {
+    var config = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+    config.method = 'POST';
+    config.url = url || config.url || '';
+    return http.request(config);
+  },
+  all: function all(requests) {
+    return Promise.all(requests);
+  },
+  request: function request() {
+    var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var chain = [inner.dispatchRequest, undefined];
+    var promise = Promise.resolve(config);
+    inner.request.forEach(function (interceptor) {
+      chain.unshift(interceptor.fulfilled, interceptor.rejected);
+    });
+    inner.response.forEach(function (interceptor) {
+      chain.push(interceptor.fulfilled, interceptor.rejected);
+    });
+    while (chain.length) {
+      promise = promise.then(chain.shift(), chain.shift());
+    }
+    return promise;
+  }
+};
+var _default = http;
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+
+/***/ 37:
+/*!**************************************************************************!*\
+  !*** C:/sourcecode/checkinapp/components/common/tui-request/tui-base.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ 11));
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+var base = {
+  /**
+   * content-type:
+   * form=>application/x-www-form-urlencoded
+   * json=>application/json
+   * ......
+   */
+  config: function config() {
+    return {
+      //接口域名：https://base.com
+      host: '',
+      //接口地址：/login
+      url: '',
+      data: {},
+      header: {
+        'content-type': 'application/json'
+      },
+      //有效值必须大写
+      method: 'POST',
+      //大于0时才生效，否则使用全局配置或者默认值
+      timeout: 0,
+      dataType: 'json',
+      //String，不同接口请求名称不可相同，否则会拦截重复key的请求，不传默认不拦截
+      requestTaskKey: '',
+      //是否只返回简洁的接口数据：true 仅返回接口数据data，false 返回包含header、statusCode、errMsg、data等数据
+      concise: false,
+      showLoading: true,
+      errorMsg: '网络不给力，请稍后再试~'
+    };
+  },
+  getOptions: function getOptions(config) {
+    var options = _objectSpread({}, config);
+    ['host', 'timeout', 'requestTaskKey', 'showLoading', 'errorMsg'].forEach(function (item) {
+      delete options[item];
+    });
+    return options;
+  },
+  merge: function merge(a, b) {
+    return Object.assign({}, a, b);
+  },
+  mergeConfig: function mergeConfig(defaultConfig, config, init) {
+    var header = base.merge(defaultConfig.header, config.header || {});
+    var params = base.merge(defaultConfig, config);
+    params.header = header;
+    if (!init) {
+      var url = base.combineURLs(params.host, params.url);
+      params.url = url;
+    }
+    return params;
+  },
+  //如果host为空，则直接使用传入的目标地址
+  combineURLs: function combineURLs(host, target) {
+    return host ? host.replace(/\s+/g, '') + '/' + target.replace(/\s+/g, '').replace(/^\/+/, '') : target;
+  },
+  toast: function toast(text, duration, success) {
+    uni.showToast({
+      title: text || "出错啦~",
+      icon: success ? 'success' : 'none',
+      duration: duration || 2000
+    });
+  },
+  showLoading: function showLoading(title) {
+    var mask = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+    uni.showLoading({
+      mask: mask,
+      title: title || '请稍候...'
+    });
+  }
+};
+var _default = base;
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+
+/***/ 38:
+/*!**********************************************************************************!*\
+  !*** C:/sourcecode/checkinapp/components/common/tui-request/tui-taskKeyStore.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createTaskKeyStore;
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ 23));
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ 24));
+var RequestTaskKeyStore = /*#__PURE__*/function () {
+  function RequestTaskKeyStore() {
+    var keys = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+    (0, _classCallCheck2.default)(this, RequestTaskKeyStore);
+    this.taskKeyStore = keys;
+  }
+  (0, _createClass2.default)(RequestTaskKeyStore, [{
+    key: "setRequestTaskStorage",
+    value: function setRequestTaskStorage(taskArr, taskKey) {
+      taskKey && taskArr.push(taskKey);
+      this.taskKeyStore = taskArr;
+    }
+  }, {
+    key: "removeRequestTaskKey",
+    value: function removeRequestTaskKey(taskKey) {
+      if (!taskKey) return;
+      var taskArr = (0, _toConsumableArray2.default)(this.taskKeyStore);
+      var index = taskArr.indexOf(taskKey);
+      if (~index) {
+        taskArr.splice(index, 1);
+        this.setRequestTaskStorage(taskArr);
+      }
+    }
+  }, {
+    key: "requestTaskStorage",
+    value: function requestTaskStorage(taskKey) {
+      var result = false;
+      if (!taskKey) return result;
+      var taskArr = (0, _toConsumableArray2.default)(this.taskKeyStore);
+      if (taskArr.length > 0) {
+        if (~taskArr.indexOf(taskKey)) {
+          result = true;
+        } else {
+          this.setRequestTaskStorage(taskArr, taskKey);
+        }
+      } else {
+        taskKey && this.setRequestTaskStorage(taskArr, taskKey);
+      }
+      return result;
+    }
+  }]);
+  return RequestTaskKeyStore;
+}();
+function createTaskKeyStore() {
+  var keys = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  return new RequestTaskKeyStore(keys);
+}
+
+/***/ }),
+
 /***/ 4:
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -9862,7 +10719,25 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
 
 /***/ }),
 
-/***/ 89:
+/***/ 9:
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+  return arr2;
+}
+module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ 93:
 /*!******************************************************!*\
   !*** C:/sourcecode/checkinapp/sdk/qqmap-wx-jssdk.js ***!
   \******************************************************/
@@ -10969,508 +11844,6 @@ var QQMapWX = /*#__PURE__*/function () {
 ;
 module.exports = QQMapWX;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 9:
-/*!*****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _arrayLikeToArray(arr, len) {
-  if (len == null || len > arr.length) len = arr.length;
-  for (var i = 0, arr2 = new Array(len); i < len; i++) {
-    arr2[i] = arr[i];
-  }
-  return arr2;
-}
-module.exports = _arrayLikeToArray, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ 98:
-/*!****************************************************!*\
-  !*** C:/sourcecode/checkinapp/utils/index.list.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  list: [{
-    "letter": "A",
-    "data": [{
-      "name": "阿拉斯加",
-      "mobile": "13588889999",
-      "keyword": "阿拉斯加ABA13588889999"
-    }, {
-      "name": "阿克苏",
-      "mobile": "0551-4386721",
-      "keyword": "阿克苏AKESU0551-4386721"
-    }, {
-      "name": "阿拉善",
-      "mobile": "4008009100",
-      "keyword": "阿拉善ALASHAN4008009100"
-    }, {
-      "name": "阿勒泰",
-      "mobile": "13588889999",
-      "keyword": "阿勒泰ALETAI13588889999"
-    }, {
-      "name": "阿里",
-      "mobile": "13588889999",
-      "keyword": "阿里ALI13588889999"
-    }, {
-      "name": "安阳",
-      "mobile": "13588889999",
-      "keyword": "13588889999安阳ANYANG"
-    }]
-  }, {
-    "letter": "B",
-    "data": [{
-      "name": "白城",
-      "mobile": "该主子没有留电话~",
-      "keyword": "白城BAICHENG"
-    }, {
-      "name": "白山",
-      "mobile": "13588889999",
-      "keyword": "白山BAISHAN13588889999"
-    }, {
-      "name": "白银",
-      "mobile": "13588889999",
-      "keyword": "白银BAIYIN13588889999"
-    }, {
-      "name": "保定",
-      "mobile": "13588889999",
-      "keyword": "保定BAODING13588889999"
-    }]
-  }, {
-    "letter": "C",
-    "data": [{
-      "name": "沧州",
-      "mobile": "13588889999",
-      "keyword": "沧州CANGZHOU13588889999"
-    }, {
-      "name": "长春",
-      "mobile": "13588889999",
-      "keyword": "长春CHANGCHUN13588889999"
-    }]
-  }, {
-    "letter": "D",
-    "data": [{
-      "name": "大理",
-      "mobile": "13588889999",
-      "keyword": "大理DALI13588889999"
-    }, {
-      "name": "大连",
-      "mobile": "13588889999",
-      "keyword": "大连DALIAN13588889999"
-    }]
-  }, {
-    "letter": "E",
-    "data": [{
-      "name": "鄂尔多斯",
-      "mobile": "13588889999",
-      "keyword": "鄂尔多斯EERDUOSI13588889999"
-    }, {
-      "name": "恩施",
-      "mobile": "13588889999",
-      "keyword": "恩施ENSHI13588889999"
-    }, {
-      "name": "鄂州",
-      "mobile": "13588889999",
-      "keyword": "鄂州EZHOU13588889999"
-    }]
-  }, {
-    "letter": "F",
-    "data": [{
-      "name": "防城港",
-      "mobile": "该主子没有留电话~",
-      "keyword": "防城港FANGCHENGGANG"
-    }, {
-      "name": "抚顺",
-      "mobile": "13588889999",
-      "keyword": "抚顺FUSHUN13588889999"
-    }, {
-      "name": "阜新",
-      "mobile": "13588889999",
-      "keyword": "阜新FUXIN13588889999"
-    }, {
-      "name": "阜阳",
-      "mobile": "13588889999",
-      "keyword": "阜阳FUYANG13588889999"
-    }, {
-      "name": "抚州",
-      "mobile": "13588889999",
-      "keyword": "抚州FUZHOU13588889999"
-    }, {
-      "name": "福州",
-      "mobile": "13588889999",
-      "keyword": "福州FUZHOU13588889999"
-    }]
-  }, {
-    "letter": "G",
-    "data": [{
-      "name": "甘南",
-      "mobile": "13588889999",
-      "keyword": "甘南GANNAN13588889999"
-    }, {
-      "name": "赣州",
-      "mobile": "13588889999",
-      "keyword": "赣州GANZHOU13588889999"
-    }, {
-      "name": "甘孜",
-      "mobile": "13588889999",
-      "keyword": "甘孜GANZI13588889999"
-    }]
-  }, {
-    "letter": "H",
-    "data": [{
-      "name": "哈尔滨",
-      "mobile": "13588889999",
-      "keyword": "哈尔滨HAERBIN13588889999"
-    }, {
-      "name": "海北",
-      "mobile": "13588889999",
-      "keyword": "海北HAIBEI13588889999"
-    }, {
-      "name": "海东",
-      "mobile": "13588889999",
-      "keyword": "海东HAIDONG13588889999"
-    }, {
-      "name": "海口",
-      "mobile": "13588889999",
-      "keyword": "海口HAIKOU13588889999"
-    }]
-  }, {
-    "letter": "I",
-    "data": [{
-      "name": "ice",
-      "mobile": "13588889999",
-      "keyword": "佳木斯JIAMUSI13588889999"
-    }]
-  }, {
-    "letter": "J",
-    "data": [{
-      "name": "佳木斯",
-      "mobile": "13588889999",
-      "keyword": "佳木斯JIAMUSI13588889999"
-    }, {
-      "name": "吉安",
-      "mobile": "13588889999",
-      "keyword": "吉安JIAN13588889999"
-    }, {
-      "name": "江门",
-      "mobile": "13588889999",
-      "keyword": "江门JIANGMEN13588889999"
-    }]
-  }, {
-    "letter": "K",
-    "data": [{
-      "name": "开封",
-      "mobile": "13588889999",
-      "keyword": "开封KAIFENG13588889999"
-    }, {
-      "name": "喀什",
-      "mobile": "13588889999",
-      "keyword": "喀什KASHI13588889999"
-    }, {
-      "name": "克拉玛依",
-      "mobile": "13588889999",
-      "keyword": "克拉玛依KELAMAYI13588889999"
-    }]
-  }, {
-    "letter": "L",
-    "data": [{
-      "name": "来宾",
-      "mobile": "13588889999",
-      "keyword": "来宾LAIBIN13588889999"
-    }, {
-      "name": "兰州",
-      "mobile": "13588889999",
-      "keyword": "兰州LANZHOU13588889999"
-    }, {
-      "name": "拉萨",
-      "mobile": "13588889999",
-      "keyword": "拉萨LASA13588889999"
-    }, {
-      "name": "乐山",
-      "mobile": "13588889999",
-      "keyword": "乐山LESHAN13588889999"
-    }, {
-      "name": "凉山",
-      "mobile": "13588889999",
-      "keyword": "凉山LIANGSHAN13588889999"
-    }, {
-      "name": "连云港",
-      "mobile": "13588889999",
-      "keyword": "连云港LIANYUNGANG13588889999"
-    }, {
-      "name": "聊城",
-      "mobile": "18322223333",
-      "keyword": "聊城LIAOCHENG18322223333"
-    }, {
-      "name": "辽阳",
-      "mobile": "18322223333",
-      "keyword": "辽阳LIAOYANG18322223333"
-    }, {
-      "name": "辽源",
-      "mobile": "18322223333",
-      "keyword": "辽源LIAOYUAN18322223333"
-    }, {
-      "name": "丽江",
-      "mobile": "18322223333",
-      "keyword": "丽江LIJIANG18322223333"
-    }, {
-      "name": "临沧",
-      "mobile": "18322223333",
-      "keyword": "临沧LINCANG18322223333"
-    }, {
-      "name": "临汾",
-      "mobile": "18322223333",
-      "keyword": "临汾LINFEN18322223333"
-    }, {
-      "name": "临夏",
-      "mobile": "18322223333",
-      "keyword": "临夏LINXIA18322223333"
-    }, {
-      "name": "临沂",
-      "mobile": "18322223333",
-      "keyword": "临沂LINYI18322223333"
-    }, {
-      "name": "林芝",
-      "mobile": "18322223333",
-      "keyword": "林芝LINZHI18322223333"
-    }, {
-      "name": "丽水",
-      "mobile": "18322223333",
-      "keyword": "丽水LISHUI18322223333"
-    }]
-  }, {
-    "letter": "M",
-    "data": [{
-      "name": "眉山",
-      "mobile": "15544448888",
-      "keyword": "眉山MEISHAN15544448888"
-    }, {
-      "name": "梅州",
-      "mobile": "15544448888",
-      "keyword": "梅州MEIZHOU15544448888"
-    }, {
-      "name": "绵阳",
-      "mobile": "15544448888",
-      "keyword": "绵阳MIANYANG15544448888"
-    }, {
-      "name": "牡丹江",
-      "mobile": "15544448888",
-      "keyword": "牡丹江MUDANJIANG15544448888"
-    }]
-  }, {
-    "letter": "N",
-    "data": [{
-      "name": "南昌",
-      "mobile": "15544448888",
-      "keyword": "南昌NANCHANG15544448888"
-    }, {
-      "name": "南充",
-      "mobile": "15544448888",
-      "keyword": "南充NANCHONG15544448888"
-    }, {
-      "name": "南京",
-      "mobile": "15544448888",
-      "keyword": "南京NANJING15544448888"
-    }, {
-      "name": "南宁",
-      "mobile": "15544448888",
-      "keyword": "南宁NANNING15544448888"
-    }, {
-      "name": "南平",
-      "mobile": "15544448888",
-      "keyword": "南平NANPING15544448888"
-    }]
-  }, {
-    "letter": "O",
-    "data": [{
-      "name": "欧阳",
-      "mobile": "15544448888",
-      "keyword": "欧阳ouyang15544448888"
-    }]
-  }, {
-    "letter": "P",
-    "data": [{
-      "name": "盘锦",
-      "mobile": "15544448888",
-      "keyword": "盘锦PANJIN15544448888"
-    }, {
-      "name": "攀枝花",
-      "mobile": "15544448888",
-      "keyword": "攀枝花PANZHIHUA15544448888"
-    }, {
-      "name": "平顶山",
-      "mobile": "15544448888",
-      "keyword": "平顶山PINGDINGSHAN15544448888"
-    }, {
-      "name": "平凉",
-      "mobile": "15544448888",
-      "keyword": "平凉PINGLIANG15544448888"
-    }, {
-      "name": "萍乡",
-      "mobile": "15544448888",
-      "keyword": "萍乡PINGXIANG15544448888"
-    }, {
-      "name": "普洱",
-      "mobile": "15544448888",
-      "keyword": "普洱PUER15544448888"
-    }, {
-      "name": "莆田",
-      "mobile": "15544448888",
-      "keyword": "莆田PUTIAN15544448888"
-    }, {
-      "name": "濮阳",
-      "mobile": "15544448888",
-      "keyword": "濮阳PUYANG15544448888"
-    }]
-  }, {
-    "letter": "Q",
-    "data": [{
-      "name": "黔东南",
-      "mobile": "15544448888",
-      "keyword": "黔东南QIANDONGNAN15544448888"
-    }, {
-      "name": "黔南",
-      "mobile": "15544448888",
-      "keyword": "黔南QIANNAN15544448888"
-    }, {
-      "name": "黔西南",
-      "mobile": "15544448888",
-      "keyword": "黔西南QIANXINAN15544448888"
-    }]
-  }, {
-    "letter": "R",
-    "data": [{
-      "name": "日喀则",
-      "mobile": "15544448888",
-      "keyword": "日喀则RIKAZE15544448888"
-    }, {
-      "name": "日照",
-      "mobile": "15544448888",
-      "keyword": "日照RIZHAO15544448888"
-    }]
-  }, {
-    "letter": "S",
-    "data": [{
-      "name": "三门峡",
-      "mobile": "15544448888",
-      "keyword": "三门峡SANMENXIA15544448888"
-    }, {
-      "name": "三明",
-      "mobile": "15544448888",
-      "keyword": "三明SANMING15544448888"
-    }, {
-      "name": "三沙",
-      "mobile": "15544448888",
-      "keyword": "三沙SANSHA15544448888"
-    }]
-  }, {
-    "letter": "T",
-    "data": [{
-      "name": "塔城",
-      "mobile": "15544448888",
-      "keyword": "塔城TACHENG15544448888"
-    }, {
-      "name": "漯河",
-      "mobile": "15544448888",
-      "keyword": "漯河TAHE15544448888"
-    }, {
-      "name": "泰安",
-      "mobile": "15544448888",
-      "keyword": "泰安TAIAN15544448888"
-    }]
-  }, {
-    "letter": "W",
-    "data": [{
-      "name": "潍坊",
-      "mobile": "15544448888",
-      "keyword": "潍坊WEIFANG15544448888"
-    }, {
-      "name": "威海",
-      "mobile": "15544448888",
-      "keyword": "威海WEIHAI15544448888"
-    }, {
-      "name": "渭南",
-      "mobile": "15544448888",
-      "keyword": "渭南WEINAN15544448888"
-    }, {
-      "name": "文山",
-      "mobile": "15544448888",
-      "keyword": "文山WENSHAN15544448888"
-    }]
-  }, {
-    "letter": "X",
-    "data": [{
-      "name": "厦门",
-      "mobile": "15544448888",
-      "keyword": "厦门XIAMEN15544448888"
-    }, {
-      "name": "西安",
-      "mobile": "15544448888",
-      "keyword": "西安XIAN15544448888"
-    }, {
-      "name": "湘潭",
-      "mobile": "15544448888",
-      "keyword": "湘潭XIANGTAN15544448888"
-    }]
-  }, {
-    "letter": "Y",
-    "data": [{
-      "name": "雅安",
-      "mobile": "15544448888",
-      "keyword": "雅安YAAN15544448888"
-    }, {
-      "name": "延安",
-      "mobile": "15544448888",
-      "keyword": "延安YANAN15544448888"
-    }, {
-      "name": "延边",
-      "mobile": "15544448888",
-      "keyword": "延边YANBIAN15544448888"
-    }, {
-      "name": "盐城",
-      "mobile": "15544448888",
-      "keyword": "盐城YANCHENG15544448888"
-    }]
-  }, {
-    "letter": "Z",
-    "data": [{
-      "name": "枣庄",
-      "mobile": "15544448888",
-      "keyword": "枣庄ZAOZHUANG15544448888"
-    }, {
-      "name": "张家界",
-      "mobile": "15544448888",
-      "keyword": "张家界ZHANGJIAJIE15544448888"
-    }, {
-      "name": "张家口",
-      "mobile": "15544448888",
-      "keyword": "张家口ZHANGJIAKOU15544448888"
-    }]
-  }, {
-    "letter": "well",
-    "data": [{
-      "name": "☆echo.",
-      "mobile": "16666666666",
-      "keyword": "echo16666666666"
-    }]
-  }]
-};
-exports.default = _default;
 
 /***/ })
 

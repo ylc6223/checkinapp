@@ -1,4 +1,5 @@
-import http from '../components/common/httpRequest.js'
+import http from '../components/common/tui-request'
+
 //初始化请求配置项
 http.create({
 	host: 'https://www.thorui.cn',
@@ -23,4 +24,4 @@ http.interceptors.response.use(response => {
 	//TODO
 	return response
 })
-export default http;
+export default http
