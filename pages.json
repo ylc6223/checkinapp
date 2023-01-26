@@ -14,7 +14,7 @@
 			"style": {
 				"navigationBarTitleText": "注册",
 				"usingComponents": {
-		
+
 				}
 			}
 		},
@@ -23,7 +23,7 @@
 			"style": {
 				"navigationBarTitleText": "找回密码",
 				"usingComponents": {
-		
+
 				}
 			}
 		},
@@ -57,23 +57,9 @@
 			}
 
 		}, {
-			"path": "pages/indexlist/indexlist",
+			"path": "pages/checkin_setting/indexlist/indexlist",
 			"style": {
 				"navigationBarTitleText": "人员列表",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
-			"path": "pages/profile/location/location",
-			"style": {
-				"navigationBarTitleText": "地点打卡",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
-			"path": "pages/checkin_setting/checkin-edit/checkin-edit",
-			"style": {
-				"navigationBarTitleText": "考勤组设置",
 				"enablePullDownRefresh": false
 			}
 
@@ -85,7 +71,25 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/checkin_setting/wifi-setting/wifi-setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "WIFI设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkin_setting/times-setting/times-setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"tabBar": {
 		"color": "#34495e",
 		"selectedColor": "#3498db",

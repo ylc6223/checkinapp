@@ -7,10 +7,10 @@
     "pages/count/count",
     "pages/profile/profile",
     "pages/checkin_setting/checkin_setting",
-    "pages/indexlist/indexlist",
-    "pages/profile/location/location",
-    "pages/checkin_setting/checkin-edit/checkin-edit",
-    "pages/user/user"
+    "pages/checkin_setting/indexlist/indexlist",
+    "pages/user/user",
+    "pages/checkin_setting/wifi-setting/wifi-setting",
+    "pages/checkin_setting/times-setting/times-setting"
   ],
   "subPackages": [],
   "window": {
@@ -56,7 +56,8 @@
     }
   },
   "requiredPrivateInfos": [
-    "chooseLocation"
+    "chooseLocation",
+    "getLocation"
   ],
   "usingComponents": {}
 }

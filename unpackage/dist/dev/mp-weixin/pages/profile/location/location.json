@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "地点打卡",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "tui-list-view": "/components/thorui/tui-list-view/tui-list-view",
-    "tui-list-cell": "/components/thorui/tui-list-cell/tui-list-cell",
-    "tui-switch": "/components/thorui/tui-switch/tui-switch"
-  }
-}

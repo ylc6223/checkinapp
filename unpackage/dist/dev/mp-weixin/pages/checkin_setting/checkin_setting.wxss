@@ -24,14 +24,12 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.selectionbox.data-v-f1e646f8 {
-  min-width: 250rpx;
-  display: flex;
-  justify-content: flex-end;
+.container.data-v-f1e646f8 {
+  position: relative;
 }
-tui-list-cell .dropdownlist-item.data-v-f1e646f8 {
-  display: inline-block;
-  width: 100%;
-  font-size: 14px;
+.savebtn-wrap.data-v-f1e646f8 {
+  position: absolute;
+  bottom: 0;
+  padding: 20rpx;
 }
 
