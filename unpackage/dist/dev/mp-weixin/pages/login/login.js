@@ -179,17 +179,17 @@ var _default = {
       success: function success(res) {
         if (res.code) {
           that.loginCode = res.code;
-          wx.request({
-            url: 'http://test.5g-link.cn:9027/SysWechatOpen/snsOAuth2',
-            method: "POST",
+          // 授权登录
+          that.http.request({
+            url: '/SysWechatOpen/snsOAuth2',
+            method: 'POST',
             data: {
               code: res.code
-            },
-            success: function success(res1) {
-              that.openid = res1.data.result;
-              wx.setStorage("openid", that.openid);
             }
-          });
+          }).then(function (res1) {
+            that.openid = res1.data.result;
+            wx.setStorage("openid", that.openid);
+          }).catch(function (e) {});
         }
       }
     });
@@ -198,22 +198,18 @@ var _default = {
     //点击登录时候使用手机号进行登录，带上openid
     login: function login(e) {
       var that = this;
-      // console.log(e.detail.code)
-
-      wx.request({
-        url: 'http://test.5g-link.cn:9027/sysWechatUser/PhoneCodeLogin',
+      that.http.request({
+        url: '/sysWechatUser/PhoneCodeLogin',
         method: "POST",
         data: {
           "phoneCode": e.detail.code,
           "openId": that.openid
-        },
-        success: function success(res1) {
-          console.log(res1);
-          wx.switchTab({
-            url: "/pages/index/index"
-          });
         }
-      });
+      }).then(function (res) {
+        wx.switchTab({
+          url: "/pages/index/index"
+        });
+      }).catch(function (e) {});
     }
   }
 };

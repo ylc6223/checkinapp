@@ -10256,9 +10256,10 @@ exports.default = void 0;
 var _tuiRequest = _interopRequireDefault(__webpack_require__(/*! ../components/common/tui-request */ 36));
 //初始化请求配置项
 _tuiRequest.default.create({
-  host: 'https://www.thorui.cn',
+  host: 'http://test.5g-link.cn:9027',
   header: {
-    'content-type': 'application/x-www-form-urlencoded'
+    // 'content-type': 'application/x-www-form-urlencoded'
+    'content-type': 'application/json'
   }
 });
 //请求拦截
