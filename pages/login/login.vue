@@ -46,7 +46,7 @@
 							}
 						}).then(res1 => {
 							that.openid = res1.data.result
-							wx.setStorage("openid", that.openid)
+							// wx.setStorage("openid", that.openid)
 						}).catch(e => {})
 
 					}

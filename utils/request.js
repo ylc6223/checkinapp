@@ -10,14 +10,14 @@ http.create({
 })
 //请求拦截
 http.interceptors.request.use(config => {
-	let token = uni.getStorageSync('thorui_token');
-	if (config.header) {
-		config.header['Authorization'] = token
-	} else {
-		config.header = {
-			'Authorization': token
-		}
-	}
+	// let token = uni.getStorageSync('thorui_token');
+	// if (config.header) {
+	// 	config.header['Authorization'] = token
+	// } else {
+	// 	config.header = {
+	// 		'Authorization': token
+	// 	}
+	// }
 	return config
 })
 //响应拦截

@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "签到小程序",
-  "usingComponents": {}
+  "usingComponents": {
+    "tui-picker": "/components/thorui/tui-picker/tui-picker"
+  }
 }

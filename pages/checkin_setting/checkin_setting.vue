@@ -3,7 +3,8 @@
 		<view class="mt-20 card w-300 mx-auto">
 			<tui-list-view unlined="top">
 				<tui-list-cell :index="0" :unlined="true" :arrow="true">
-					<view>
+					<view class="flex justify-start items-center">
+						<tui-icon name="add" color="#3498db" size="24"></tui-icon>
 						<view class="tui-list-cell_name">新增考勤组</view>
 					</view>
 				</tui-list-cell>
@@ -25,7 +26,7 @@
 
 		<view class="mt-20 card w-300 mx-auto">
 			<tui-list-view unlined="top">
-				<tui-list-cell :index="0" :arrow="true">
+				<tui-list-cell :index="0" :arrow="true" @click="navTo">
 					<view>
 						<text class="tui-list-cell_name">考勤时间设置</text>
 					</view>
@@ -66,6 +67,16 @@
 	var QQMapWX = require("../../sdk/qqmap-wx-jssdk");
 	const chooseLocation = requirePlugin('chooseLocation');
 	var qqmapsdk;
+	var latitude;
+	var longitude;
+	uni.getLocation({
+		type: 'wgs84',
+		success: function(res) {
+			latitude = res.latitude
+			longitude = res.longitude
+			console.log('当前位置的经纬度：' + res.longitude + '，' + res.latitude);
+		}
+	});
 	export default {
 		data() {
 			return {
@@ -95,8 +106,8 @@
 				key: 'IBTBZ-GUPYJ-LUTFY-FJHNN-4FD4V-A6FVU', //使用在腾讯位置服务申请的key
 				referer: 'xfab-checkinapp', //调用插件的app的名称
 				location: JSON.stringify({
-					latitude: 39.89631551,
-					longitude: 116.323459711
+					latitude,
+					longitude
 				}),
 				category: '',
 				address: ""
@@ -104,27 +115,23 @@
 		},
 		methods: {
 			navTo(obj) {
+				const that = this
 				const {
 					index
 				} = obj
-				console.log(index);
 				switch (index) {
 					//时间设置
 					case 0:
 						uni.navigateTo({
-							url: "/pages/indexlist/indexlist"
+							url: "/pages/checkin_setting/times-setting/times-setting"
 						})
 						break;
 						//地点设置
 					case 1:
-						//考勤地点设置
-						// #ifdef MP-WEIXIN
-						wx.navigateTo({
-							url: 'plugin://chooseLocation/index?key=' + this.key + '&referer=' + this.referer +
-								'&location=' +
-								this.location + '&category=' + this.category
+						uni.navigateTo({
+							url: 'plugin://chooseLocation/index?key=' + that.key + '&referer=' + that.referer +
+								'&location=' + that.location + '&category=' + that.category
 						})
-						// #endif
 						break;
 						//WIFI设置	
 					case 2:
@@ -149,23 +156,6 @@
 				}
 			},
 		},
-		// #ifdef MP-WEIXIN 
-		onLaunch() {
-			wx.getLocation({
-				type: 'wgs84',
-				success: function(res) {
-					const latitude = res.latitude
-					const longitude = res.longitude
-					this.location = JSON.stringify({
-						latitude,
-						longitude
-					})
-					console.log('当前位置的经度：' + res.longitude);
-					console.log('当前位置的纬度：' + res.latitude);
-				}
-			});
-		},
-		// #endif
 		mounted() {
 			// 实例化API核心类
 			qqmapsdk = new QQMapWX({
@@ -185,6 +175,7 @@
 			// 	}
 			// });
 		},
+		// #ifdef MP-WEIXIN 
 		onShow() {
 			if (!chooseLocation.getLocation()) {
 				return
@@ -194,6 +185,11 @@
 			} = chooseLocation.getLocation(); // 如果点击确认选点按钮，则返回选点结果对象，否则返回null
 			this.address = address
 		},
+		onUnload() {
+			// 页面卸载时设置插件选点数据为null，防止再次进入页面，geLocation返回的是上次选点结果
+			chooseLocation.setLocation(null);
+		}
+		// #endif
 	}
 </script>
 

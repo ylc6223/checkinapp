@@ -3,8 +3,9 @@
 		<view class="mt-20 card w-300 flex items-center">
 			<image class="avatar" src="../../static/icons/checkin-active.png" mode=""></image>
 			<view class="names flex-1">
-				<text class="block">Jerry</text>
-				<text class="block">研发部</text>
+				<text>Jerry</text>
+				<text class="p-10">研发部</text>
+				<text class="block" @click="switchGroup">{{curCheckinGroup}}</text>
 			</view>
 			<view class="actions">
 				<button class="action-btn flex justify-center items-center">
@@ -33,11 +34,14 @@
 			</view>
 			<!-- 打卡tips -->
 			<view class="tips mx-auto">
-<!-- 				<text class="icon">&#xe72d;</text>
+				<!-- 				<text class="icon">&#xe72d;</text>
 				<text>已进入考勤范围:深蓝工业园</text> -->
 				<text class="mt-20 block" style="font-size: 12px;color:red">准时打卡不迟到，即可获得5元现金红包</text>
 			</view>
 		</view>
+		<!-- 考勤组选择框 -->
+		<tui-picker :maskClosable="false" :show="pickerVisible" :pickerData="checkGroups" @hide="hide" @change="change">
+		</tui-picker>
 	</view>
 </template>
 
@@ -45,29 +49,42 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello',
-				iconType: ['success'],
+				curCheckinGroup: "考勤组A", //当前考勤组
+				checkGroups: [{
+					text: "考勤组A",
+					value: "1001"
+				}, {
+					text: "考勤组B",
+					value: "1002"
+				}, {
+					text: "考勤组C",
+					value: "1003"
+				}],
+				pickerVisible: false
 			}
 		},
 		onLoad() {
-			// #ifdef APP-PLUS|| MP-WEIXIN
-			this.iconType = ['success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search',
-				'clear'
-			]
-			// #endif
-			// #ifdef MP-ALIPAY
-			this.iconType = ['info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear', 'success',
-				'success_no_circle', 'loading'
-			]
-			// #endif
-			// #ifdef MP-BAIDU
-			this.iconType = ['success', 'info', 'warn', 'waiting', 'success_no_circle', 'clear', 'search', 'personal',
-				'setting', 'top', 'close', 'cancel', 'download', 'checkboxSelected', 'radioSelected', 'radioUnselect'
-			]
-			// #endif
+
 		},
 		methods: {
-
+			//切换考勤组
+			switchGroup() {
+				this.pickerVisible = !this.pickerVisible
+			},
+			//隐藏选择器
+			hide({
+				params
+			}) {},
+			//选择器value改变时触发
+			change({
+				text,
+				value,
+				index,
+				result,
+				params
+			}) {
+				this.curCheckinGroup = text
+			}
 		}
 	}
 </script>
