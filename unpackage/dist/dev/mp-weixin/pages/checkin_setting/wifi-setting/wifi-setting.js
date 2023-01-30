@@ -99,19 +99,19 @@ var components
 try {
   components = {
     tuiListView: function () {
-      return __webpack_require__.e(/*! import() | components/thorui/tui-list-view/tui-list-view */ "components/thorui/tui-list-view/tui-list-view").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-list-view/tui-list-view.vue */ 159))
+      return __webpack_require__.e(/*! import() | components/thorui/tui-list-view/tui-list-view */ "components/thorui/tui-list-view/tui-list-view").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-list-view/tui-list-view.vue */ 161))
     },
     tuiListCell: function () {
-      return __webpack_require__.e(/*! import() | components/thorui/tui-list-cell/tui-list-cell */ "components/thorui/tui-list-cell/tui-list-cell").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-list-cell/tui-list-cell.vue */ 122))
+      return __webpack_require__.e(/*! import() | components/thorui/tui-list-cell/tui-list-cell */ "components/thorui/tui-list-cell/tui-list-cell").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-list-cell/tui-list-cell.vue */ 124))
     },
     tuiSwitch: function () {
-      return __webpack_require__.e(/*! import() | components/thorui/tui-switch/tui-switch */ "components/thorui/tui-switch/tui-switch").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-switch/tui-switch.vue */ 187))
+      return __webpack_require__.e(/*! import() | components/thorui/tui-switch/tui-switch */ "components/thorui/tui-switch/tui-switch").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-switch/tui-switch.vue */ 189))
     },
     tuiIcon: function () {
-      return Promise.all(/*! import() | components/thorui/tui-icon/tui-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/thorui/tui-icon/tui-icon")]).then(__webpack_require__.bind(null, /*! @/components/thorui/tui-icon/tui-icon.vue */ 129))
+      return Promise.all(/*! import() | components/thorui/tui-icon/tui-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/thorui/tui-icon/tui-icon")]).then(__webpack_require__.bind(null, /*! @/components/thorui/tui-icon/tui-icon.vue */ 131))
     },
     tuiDialog: function () {
-      return __webpack_require__.e(/*! import() | components/thorui/tui-dialog/tui-dialog */ "components/thorui/tui-dialog/tui-dialog").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-dialog/tui-dialog.vue */ 194))
+      return __webpack_require__.e(/*! import() | components/thorui/tui-dialog/tui-dialog */ "components/thorui/tui-dialog/tui-dialog").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-dialog/tui-dialog.vue */ 196))
     },
   }
 } catch (e) {

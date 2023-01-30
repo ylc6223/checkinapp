@@ -101,7 +101,7 @@ var components
 try {
   components = {
     tuiPicker: function () {
-      return __webpack_require__.e(/*! import() | components/thorui/tui-picker/tui-picker */ "components/thorui/tui-picker/tui-picker").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-picker/tui-picker.vue */ 144))
+      return __webpack_require__.e(/*! import() | components/thorui/tui-picker/tui-picker */ "components/thorui/tui-picker/tui-picker").then(__webpack_require__.bind(null, /*! @/components/thorui/tui-picker/tui-picker.vue */ 146))
     },
   }
 } catch (e) {
